@@ -4,10 +4,7 @@
 Paper link:
 
 ## 1. Environment Preparation
-Before you start to train or test the model, please install suitable pytorch. 
-'''
-pip install -r requirements.txt
-'''
+Before you start to train or test the model, please install necessary packages accroding to the requirements.txt. 
 
 ## 2. Training preparation
 
