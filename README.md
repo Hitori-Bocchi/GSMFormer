@@ -1,1 +1,1 @@
-# GPFormer-A-novel-geometric-prior-information-embedded-building-roof-semantic-segmentation-structure
+# GSMFormer: A Structure-Aware Framework with Agent-Gated Fusion for Building Semantic Segmentation
