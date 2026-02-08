@@ -8,6 +8,8 @@ Before you start to train or test the model, please install necessary packages a
 
 ## 2. Training preparation
 
+# Before you start training or testing, the boundary from morphological erosion should be prepared. To get the boundary info, please operate "boundary_generation.py" first. 
+
 ## 3. Test preparation
 
 ## 4. Getting pretrained weights. 
