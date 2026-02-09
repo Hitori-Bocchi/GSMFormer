@@ -242,10 +242,10 @@ def train_and_evaluate(
 def parse_args():
 
     parser = argparse.ArgumentParser(description="Building Segmentation Training")
-    parser.add_argument("--train_img", type=str, default=r"F:\科研\建筑分割\Massachusetts Building Dataset\train\image", help="path_to_training_image")
-    parser.add_argument("--train_label", type=str, default=r"F:\科研\建筑分割\Massachusetts Building Dataset\train\label", help="path_to_training_label")
-    parser.add_argument("--val_img", type=str,default=r"F:\科研\建筑分割\Massachusetts Building Dataset\val\label", help="path_to_validation_image")
-    parser.add_argument("--val_label", type=str, default=r"F:\科研\建筑分割\Massachusetts Building Dataset\val\label",help="path_to_validation_label")
+    parser.add_argument("--train_img", type=str, default=".\Dataset\Massachusetts_dataset\train\image", help="path_to_training_image")
+    parser.add_argument("--train_label", type=str, default=".\Dataset\Massachusetts_dataset\train\label", help="path_to_training_label")
+    parser.add_argument("--val_img", type=str,default=".\Dataset\Massachusetts_dataset\val\label", help="path_to_validation_image")
+    parser.add_argument("--val_label", type=str, default=".\Dataset\Massachusetts_dataset\val\label",help="path_to_validation_label")
     parser.add_argument("--save_dir", type=str, default="./saved_weights", help="path_to_validation_label")
 
     parser.add_argument("--epochs", type=int, default=150, help="total_epochs")
@@ -284,3 +284,4 @@ if __name__ == "__main__":
         stage2_epochs=args.stage_2_epochs,
         save_dir=save_dir,
     )
+
