@@ -15,3 +15,5 @@ Before you start to train or test the model, please install necessary packages a
 ## 4. Getting pretrained weights. 
 
 To get the pretrained weights of GSMFormer, please browser: [Hugging Face](https://huggingface.co/JasonGao726/GSMFormer/tree/main) or [Baidu Cloud](https://huggingface.co/JasonGao726/GSMFormer/tree/main)
+
+If you have any questions, please send emails to erpaogao@gmail.com OR zhouzetong_rs@163.com.
