@@ -4,7 +4,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import timm
-from torchvision.ops import deform_conv2d  # 必须引入 DCN 操作
+from torchvision.ops import deform_conv2d
 from FPN import FeaturePyramidNetwork
 from settings import TeLU
 
@@ -490,16 +490,3 @@ def get_model(num_classes=2, img_size=512, swin_variant='swin_tiny_patch4_window
     backbone.out_channels = 256
     model = GlobalSegWrapperHDNet(backbone, num_classes=num_classes, mid_channels=None)
     return model
-
-
-if __name__ == "__main__":
-    device = torch.device("cpu")
-    model = get_model(num_classes=2, img_size=224, swin_variant='swin_tiny_patch4_window7_224', pretrained=False).to(
-        device)
-    model.train()
-    x = torch.randn(2, 3, 224, 224, device=device)
-    # boundary-like GT: binary 0/1
-    gt = (torch.rand(2, 1, 224, 224, device=device) > 0.8).float()
-    logits, aux = model(x, gt=gt)
-    print("logits:", logits.shape, "aux:", aux)
-    print("使用了自适应结构张量(Eigenvalues) + 可变形卷积实现的真正动态几何先验。")
