@@ -146,11 +146,11 @@ def evaluate(
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Building Segmentation Testing")
-    parser.add_argument("--test_img", type=str, default=r"F:\科研\建筑分割\Massachusetts Building Dataset\test\image",
+    parser.add_argument("--test_img", type=str, default=r".\Massachusetts_dataset\test\image",
                         help="path_to_testing_image")
-    parser.add_argument("--test_label", type=str, default=r"F:\科研\建筑分割\Massachusetts Building Dataset\test\label",
+    parser.add_argument("--test_label", type=str, default=r".\Massachusetts_dataset\test\label",
                         help="path_to_testing_label")
-    parser.add_argument("--model_path", type=str, default=r"F:\科研\建筑分割\Comparation Experiments\ours1\Massachusetts\Massachusetts_tiny.pth",
+    parser.add_argument("--model_path", type=str, default=r".\saved_weights\Massachusetts\Massachusetts_tiny.pth",
                         help="path_to_tested_model")
 
     return parser.parse_args()
@@ -170,4 +170,5 @@ if __name__ == "__main__":
         model_path=MODEL_PATH,
         batch_size=1,
         num_classes=2
+
     )
