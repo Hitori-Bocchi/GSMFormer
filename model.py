@@ -46,7 +46,6 @@ class StructureGuidedDynamicCDC(nn.Module):
         nn.init.constant_(self.offset_conv.weight, 0)
         nn.init.constant_(self.offset_conv.bias, 0)
 
-        # Mask 初始化为 0
         nn.init.constant_(self.mask_conv.weight, 0)
         nn.init.constant_(self.mask_conv.bias, 0)
 
@@ -490,3 +489,4 @@ def get_model(num_classes=2, img_size=512, swin_variant='swin_tiny_patch4_window
     backbone.out_channels = 256
     model = GlobalSegWrapperHDNet(backbone, num_classes=num_classes, mid_channels=None)
     return model
+
