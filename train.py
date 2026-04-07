@@ -124,9 +124,9 @@ def train_and_evaluate(
 
     metrics_dict = {
         "OA": Accuracy(task="multiclass", num_classes=num_classes).to(device),
-        "(All Classes)Precision": Precision(task="multiclass", num_classes=num_classes, average="macro").to(device),
-        "(All Classes)Recall": Recall(task="multiclass", num_classes=num_classes, average="macro").to(device),
-        "(All Classes)F1": F1Score(task="multiclass", num_classes=num_classes, average="macro").to(device),
+        "(Multiclass)Precision": Precision(task="multiclass", num_classes=num_classes, average="macro").to(device),
+        "(Multiclass)Recall": Recall(task="multiclass", num_classes=num_classes, average="macro").to(device),
+        "(Multiclass)F1": F1Score(task="multiclass", num_classes=num_classes, average="macro").to(device),
         "mIoU": JaccardIndex(task="multiclass", num_classes=num_classes).to(device),
         "IoU": JaccardIndex(task="binary").to(device),
         "Precision": Precision(task="binary").to(device),
