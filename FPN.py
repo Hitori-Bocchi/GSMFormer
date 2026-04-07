@@ -1,4 +1,4 @@
-# 自适应的Agent Attention
+# Agent Attention with FPN.
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
