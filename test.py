@@ -99,9 +99,9 @@ def evaluate(
 
     metrics_dict = {
         "OA": Accuracy(task="multiclass", num_classes=2).to(device),
-        "(Binary)Precision": Precision(task="multiclass", num_classes=2, average="macro").to(device),
-        "(Binary)Recall": Recall(task="multiclass", num_classes=2, average="macro").to(device),
-        "(Binary)F1": F1Score(task="multiclass", num_classes=2, average="macro").to(device),
+        "(Multiclass)Precision": Precision(task="multiclass", num_classes=2, average="macro").to(device),
+        "(Multiclass)Recall": Recall(task="multiclass", num_classes=2, average="macro").to(device),
+        "(Multiclass)F1": F1Score(task="multiclass", num_classes=2, average="macro").to(device),
         "mIoU": JaccardIndex(task="multiclass", num_classes=2).to(device),
         "IoU": JaccardIndex(task="binary").to(device),
         "Precision": Precision(task="binary").to(device),
