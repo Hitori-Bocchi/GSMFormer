@@ -25,6 +25,6 @@ If you hope to cite our works through BibTeX, please copy the following content:
   author  = {Gao, Yechuan and Zhou, Zetong and Gao, Qian and Shen, Siyi and Huang, Xiang},
   journal = {IEEE Transactions on Geoscience and Remote Sensing},
   year    = {2026}
-}```
+}
 
 If you have any questions, please send emails to erpaogao@gmail.com OR zhouzetong_rs@163.com.
