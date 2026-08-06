@@ -7,15 +7,21 @@ Paper link: [TechRxiv](https://www.techrxiv.org/doi/full/10.36227/techrxiv.17713
 ## Comparation Expeirments
 ### WHU Building Dataset
 
-<img width="685" height="461" alt="image" src="https://github.com/user-attachments/assets/819f34b1-0619-41bd-84eb-c6cdd45e763e" />
+<p align="center">
+  <img width="685" height="461" alt="image" src="https://github.com/user-attachments/assets/819f34b1-0619-41bd-84eb-c6cdd45e763e" />
+</p>
 
 ### Massacusetts Building Dataset
 
-<img width="670" height="464" alt="image" src="https://github.com/user-attachments/assets/0561b4cd-f843-4290-8c89-ed06b1636475" />
+<p align="center">
+  <img width="670" height="464" alt="image" src="https://github.com/user-attachments/assets/0561b4cd-f843-4290-8c89-ed06b1636475" />
+</p>
 
 ### ISPRS Potsdam Dataset
 
-<img width="663" height="461" alt="image" src="https://github.com/user-attachments/assets/5472da6b-13c3-4fee-b002-9c6041c7d2b0" />
+<p align="center">
+  <img width="685" height="461" alt="image" src="https://github.com/user-attachments/assets/819f34b1-0619-41bd-84eb-c6cdd45e763e" />
+</p>
 
 
 ## 1. Environment Preparation
