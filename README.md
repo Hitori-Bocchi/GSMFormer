@@ -20,7 +20,8 @@ To get the pretrained weights of GSMFormer, please browser: [Hugging Face](https
 
 ## 5. Citations
 If you hope to cite our works through BibTeX, please copy the following content:
-```@article{gao2026gsmformer,
+```
+@article{gao2026gsmformer,
   title   = {GSMFormer: A Structure-Aware Framework with Agent-Gated Fusion for Building Semantic Segmentation},
   author  = {Gao, Yechuan and Zhou, Zetong and Gao, Qian and Shen, Siyi and Huang, Xiang},
   journal = {IEEE Transactions on Geoscience and Remote Sensing},
