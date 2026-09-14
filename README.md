@@ -11,6 +11,7 @@ Time Line:
 <img width="9785" height="8079" alt="structure_1_1" src="https://github.com/user-attachments/assets/3c717d13-4c15-4fbc-abb6-2073535f4a00" />
 
 Paper link: [TechRxiv](https://www.techrxiv.org/doi/full/10.36227/techrxiv.177138973.36328027/v2)
+To check our trained model weights in three datasets: [HuggingFace](https://huggingface.co/buckets/JasonGao726/GSMFormer-bucket) or [Baidu Cloud Storage]()
 
 ## Comparation Expeirments
 ### WHU Building Dataset
