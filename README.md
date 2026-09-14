@@ -12,8 +12,6 @@ Time Line:
 
 Paper link: [TechRxiv](https://www.techrxiv.org/doi/full/10.36227/techrxiv.177138973.36328027/v2)
 
-To get the pretrained weights of GSMFormer, please browser: [Hugging Face](https://huggingface.co/buckets/JasonGao726/GSMFormer-bucket) or [Baidu Cloud](https://pan.baidu.com/s/1ZD9kC7ic4L9pSWPLBlsrxg) (Code: md3v)
-
 Links to our preprocessed dataset:
 
 WHU Building Dataset: [Original link](https://gpcv.whu.edu.cn/data/building_dataset.html)
@@ -71,7 +69,7 @@ pip install -r requirements.txt
 
 ## 4. Getting pretrained weights. 
 
-
+To get the pretrained weights of GSMFormer, please browser: [Hugging Face](https://huggingface.co/buckets/JasonGao726/GSMFormer-bucket) or [Baidu Cloud](https://pan.baidu.com/s/1ZD9kC7ic4L9pSWPLBlsrxg) (Code: md3v)
 
 ## 5. Citations
 If you hope to cite our works through BibTeX, please copy the following content:
