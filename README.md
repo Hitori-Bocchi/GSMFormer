@@ -15,7 +15,7 @@ To get the pretrained weights of GSMFormer, please browser: [Hugging Face](https
 Links to our preprocessed dataset:
 WHU Building Dataset: [Original link](https://gpcv.whu.edu.cn/data/building_dataset.html)
 Masachusetts Building Dataset: [HuggingFace](https://huggingface.co/datasets/JasonGao726/Massachusettes_Building_Dataset_Pre-processed/tree/main) or [BaiduCloud](https://pan.baidu.com/s/1CjZhQiJV6bn3GcOiGu2q2A) (Code: bytm)    [Original link](https://www.kaggle.com/datasets/balraj98/massachusetts-buildings-dataset/data)
-ISPRS Potsdam Dataset: [HuggingFace]() or [BaiduCloud](https://pan.baidu.com/s/1LC8aINEhvJFI2CXBT8cvbg ) (Code: tppx)
+ISPRS Potsdam Dataset: [HuggingFace]() or [BaiduCloud](https://pan.baidu.com/s/1LC8aINEhvJFI2CXBT8cvbg) (Code: tppx)
 
 ## Comparation Expeirments
 ### WHU Building Dataset
@@ -38,9 +38,28 @@ ISPRS Potsdam Dataset: [HuggingFace]() or [BaiduCloud](https://pan.baidu.com/s/1
 
 
 ## 1. Environment Preparation
-Before you start to train or test the model, please install necessary packages accroding to the requirements.txt. 
+Before you start to train or test the model, create a new venv.
+```
+conda create -n gsmformer python=3.10 -y
+conda activate gsmformer
+```
+Install pytorch
+```
+pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu118
+```
+或者国内镜像：
+```
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
+Install necessary packages accroding to the requirements.txt. 
+```
+pip install -r requirements.txt
+```
 
 ## 2. Training preparation
+```
+
+```
 
 
 ## 3. Test preparation
