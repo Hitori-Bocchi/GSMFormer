@@ -12,18 +12,13 @@ Time Line:
 
 Paper link: [TechRxiv](https://www.techrxiv.org/doi/full/10.36227/techrxiv.177138973.36328027/v2)
 
-
 To get the pretrained weights of GSMFormer, please browser: [Hugging Face](https://huggingface.co/buckets/JasonGao726/GSMFormer-bucket) or [Baidu Cloud](https://pan.baidu.com/s/1ZD9kC7ic4L9pSWPLBlsrxg) (Code: md3v)
-
 
 Links to our preprocessed dataset:
 
-
 WHU Building Dataset: [Original link](https://gpcv.whu.edu.cn/data/building_dataset.html)
 
-
 Masachusetts Building Dataset: [HuggingFace](https://huggingface.co/datasets/JasonGao726/Massachusettes_Building_Dataset_Pre-processed/tree/main) or [BaiduCloud](https://pan.baidu.com/s/1CjZhQiJV6bn3GcOiGu2q2A) (Code: bytm)    [Original link](https://www.kaggle.com/datasets/balraj98/massachusetts-buildings-dataset/data)
-
 
 ISPRS Potsdam Dataset: [HuggingFace]() or [BaiduCloud](https://pan.baidu.com/s/1LC8aINEhvJFI2CXBT8cvbg) (Code: tppx)
 
