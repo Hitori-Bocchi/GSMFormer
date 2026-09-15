@@ -18,7 +18,7 @@ WHU Building Dataset: [Original link](https://gpcv.whu.edu.cn/data/building_data
 
 Masachusetts Building Dataset: [HuggingFace](https://huggingface.co/datasets/JasonGao726/Massachusettes_Building_Dataset_Pre-processed/tree/main) or [BaiduCloud](https://pan.baidu.com/s/1CjZhQiJV6bn3GcOiGu2q2A) (Code: bytm)    [Original link](https://www.kaggle.com/datasets/balraj98/massachusetts-buildings-dataset/data)
 
-ISPRS Potsdam Dataset: [HuggingFace]() or [BaiduCloud](https://pan.baidu.com/s/1LC8aINEhvJFI2CXBT8cvbg) (Code: tppx)
+ISPRS Potsdam Dataset: [HuggingFace](https://huggingface.co/datasets/JasonGao726/ISPRS_Potsdam_dataset_preprocessed/tree/main) or [BaiduCloud](https://pan.baidu.com/s/1LC8aINEhvJFI2CXBT8cvbg) (Code: tppx)
 
 ## Comparation Expeirments
 ### WHU Building Dataset
