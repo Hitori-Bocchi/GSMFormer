@@ -60,14 +60,16 @@ pip install -r requirements.txt
 ```
 
 ## 2. Training preparation
-```
 
+After dataset route is configured, please run in a terminal:
+```
+python train.py
 ```
 
 
 ## 3. Test preparation
 ```
-
+python test.py
 ```
 
 ## 4. Getting pretrained weights. 
