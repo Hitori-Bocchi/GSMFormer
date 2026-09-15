@@ -66,6 +66,9 @@ pip install -r requirements.txt
 
 
 ## 3. Test preparation
+```
+
+```
 
 ## 4. Getting pretrained weights. 
 
